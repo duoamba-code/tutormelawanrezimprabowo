@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "kirinvx",
+  "version": "${version}",
+  "name": "Kirin Voxel Bridge",
+  "description": "Tahap 1: membaca blok dan entity klien menjadi grid voxel 96^3 dengan tabel bentuk (VoxelShape). Belum merender apa pun.",
+  "authors": ["kirin"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["net.kirin.voxelbridge.KirinVoxelBridge"] },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
